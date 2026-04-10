@@ -27,3 +27,23 @@ pipeline {
         }
     }
 }
+ post{
+        always{
+            echo 'I will always say Hello again!'
+            cleanWs()
+        }
+
+        success {
+            echo 'I will run if success, we can write any code'
+
+        }
+
+        failure {
+           echo 'I will run if failure, we can write any code'
+
+        }
+        aborted {
+
+            echo 'pipeline is aborted, we can write any code'
+        }
+}       

@@ -10,15 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                script {
-
-                    sh """
-                     echo "Building"
-                     
-                    """
-
-
-                }
+                echo "Building application..."
             }
         }
 

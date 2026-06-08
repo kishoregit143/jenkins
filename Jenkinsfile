@@ -34,6 +34,7 @@ pipeline {
                 echo "deploying"
             }
         } 
+    }
         post {
 
             always{
@@ -42,5 +43,3 @@ pipeline {
             }
         }
     }
-
-}

@@ -27,9 +27,13 @@ sudo systemctl enable jenkins
 ```
 
 #### Plugins:
-* Stage view
+* Stage view,ipeline Utility Steps,aws steps,ansiColor
 
 #### Master Agent Architecture
 * Create credentials to connect agent
 * Install Java in agent
 * Select Non verification strategy
+
+### store aws credintials
+  * intall AWS Credentials pluguin and aws steps plugin
+  * add new credentials

@@ -34,6 +34,13 @@ pipeline {
                 echo "deploying"
             }
         } 
+        post {
+
+            always{
+
+                echo 'i will always say hell again'
+            }
+        }
     }
 
 }

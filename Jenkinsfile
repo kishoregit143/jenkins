@@ -10,7 +10,7 @@ pipeline {
     }
      options {
 
-        timeout(time: 10, unit: 'SECONDS')
+        timeout(time: 10, unit: 'MINUTES')
         disableConcurrentBuilds()
      }
      parameters {
@@ -31,6 +31,7 @@ pipeline {
                     sh '''
                         echo "Building"
                         echo $COURSE
+                        sleep 10
                         env
                         echo "Hello ${params.PERSON}"
                         echo "Biography: ${params.BIOGRAPHY}"

@@ -14,11 +14,11 @@ pipeline {
 
                 script {
 
-                    sh """""
+                    sh ''''''
 
                        echo "Building"
 
-                    """
+                    ''''''
                 }
             }
         }
@@ -28,12 +28,12 @@ pipeline {
           steps {
 
             script {
-                
-                 sh """""
+
+                 sh ''''
 
                        echo "Building"
 
-                    """
+                    '''
 
             }
           }
@@ -48,9 +48,9 @@ pipeline {
 
                    sh """""
 
-                       echo "Building"
+                        echo "Building"
 
-                    """
+                    """""
                 }
             }
         } 

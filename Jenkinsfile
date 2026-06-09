@@ -3,7 +3,7 @@ pipeline {
 
         node {
 
-            label 'jenkins-agent'
+            label 'AGENT-1'
         }
     }
     stages {

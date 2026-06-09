@@ -41,5 +41,17 @@ pipeline {
 
                 echo 'i will always say hell again'
             }
+
+            success {
+
+                echo 'i will run if i success'
+
+            }
+            failure {
+
+                echo 'i will run if it failure'
+
+
+            }
         }
     }

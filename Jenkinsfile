@@ -22,6 +22,7 @@ pipeline {
 
      }
 
+    //thi is buils part
     stages {
 
         stage('Build') {

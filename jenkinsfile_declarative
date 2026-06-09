@@ -12,30 +12,17 @@ pipeline {
 
             steps {
 
-                script {
-
-                    sh """""
-
-                       echo "Building"
-
-                    """
-                }
+                echo "building"
             }
+
+
         }
 
         stage ('Testing'){
 
           steps {
 
-            script {
-                
-                 sh """""
-
-                       echo "Building"
-
-                    """
-
-            }
+            echo "testing"
           }
 
         } 
@@ -44,14 +31,7 @@ pipeline {
 
             steps {
 
-                script {
-
-                   sh """""
-
-                       echo "Building"
-
-                    """
-                }
+                echo "deploying"
             }
         } 
     }
